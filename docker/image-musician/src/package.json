@@ -1,0 +1,19 @@
+{
+  "name": "musician",
+  "version": "1.0.0",
+  "description": "musicien UDP",
+  "main": "musician.js",
+  "dependencies": {
+    "uuid": "^3.2.1",
+    "moment": "^2.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Joel Schaer",
+  "license": "ISC"
+}
