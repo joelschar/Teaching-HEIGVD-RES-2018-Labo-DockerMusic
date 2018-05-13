@@ -17,8 +17,6 @@ function Musician (instrument) {
         // create json payload
         var sound = new Object();
         sound.uuid = this.uuid;
-        sound.activeSince = moment();
-
         // set the sound according to the instrument.
         switch (instrument) {
             case "piano":
@@ -39,6 +37,7 @@ function Musician (instrument) {
             default:
                 sound.value = "silence";
         }
+        sound.activeSince = moment();
 
         var payload = JSON.stringify(sound);
 

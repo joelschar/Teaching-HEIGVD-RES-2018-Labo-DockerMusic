@@ -1,7 +1,7 @@
 exports.MULTICAST_ADDRESS = "239.255.22.5";
 exports.PORT = 2205;
 
-exports.INTERVAL = 5000
+exports.INTERVAL = 1000;
 
 exports.PIANO = "ti-ta-ti";
 exports.TRUMPET = "pouet";
