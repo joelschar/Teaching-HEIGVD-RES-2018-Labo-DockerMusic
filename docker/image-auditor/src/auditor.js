@@ -81,7 +81,7 @@ function cleanInnactifInstruments() {
         var duration = moment.duration(moment().diff(musiciansList[i].activeSince));
         if (duration > protocol.DELAY) {
             console.log('Musician removed : ' + JSON.stringify(musiciansList[i]));
-            delete musiciansList[i];
+            musiciansList.splice(i, 1);
         }
     }
 }
